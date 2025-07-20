@@ -3,11 +3,83 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
     <title>Legal Solution</title>
   </head>
-  <body>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero omnis velit
-    quasi esse? Eos ipsam eaque maiores fugiat distinctio enim provident
-    recusandae illum quia repudiandae facere magnam eius, excepturi totam!
+  <body class="poppins-regular-font">
+    <header class="max-w-[1170px] mx-auto px-2.5">
+      <nav class="flex justify-between items-center py-10">
+        <div class="lg:hidden">
+          <a href=""><i class="fa-solid fa-bars text-2xl"></i></a>
+        </div>
+        <div>
+          <img src="./images/logo2.png" alt="" />
+        </div>
+        <div class="hidden lg:block">
+          <ul class="flex gap-5">
+            <li><a class="text-[#707070] text-[1rem]" href="">Home</a></li>
+            <li>
+              <a class="text-[#707070] text-[1rem]" href=""
+                >Services <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </li>
+            <li>
+              <a class="text-[#707070] text-[1rem]" href=""
+                >Cases <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </li>
+            <li>
+              <a class="text-[#707070] text-[1rem]" href=""
+                >Blog <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </li>
+            <li>
+              <a class="text-[#707070] text-[1rem]" href=""
+                >Contact Us <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <a
+            class="text-[1rem] font-semibold bg-[#B68C5A] text-white py-4 px-7 rounded-lg"
+            href=""
+            >Free Consultation</a
+          >
+        </div>
+      </nav>
+      <!-- hero -->
+      <section class="h-[550px] hero-banner">
+        <div>
+          <h1>We Provide Effective Legal Solutions</h1>
+          <p>
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour.
+          </p>
+          <form>
+            <input type="search" placeholder="Search your services" />
+            <input type="submit" value="Search" />
+          </form>
+        </div>
+      </section>
+    </header>
+    <script
+      src="https://kit.fontawesome.com/c8fa2ade6b.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
